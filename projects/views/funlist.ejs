@@ -1,0 +1,15 @@
+<%- include("./partials/header.ejs") %>
+<div class="col-12 align-items-center justify-content-center" id="taskheader"><h2>Fun Tasks</h2></div>
+<div class="funlist justify-content-center py-3">
+    <% if (locals.funtodo) { %>
+      <ul class="no-bullets">
+        <% funtodo.forEach((funtodo)=> { %>
+          <div class="item"><input type="checkbox"><li><%= funtodo %></li></div>
+      <%}) %>
+      </ul>
+      <% } else {%>
+        <h1>No fun to dos! You must be bored</h1>
+    <% } %>  
+</div>
+
+<%- include("./partials/footer.ejs") %>
