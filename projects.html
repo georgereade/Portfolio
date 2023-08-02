@@ -22,10 +22,10 @@
       <div class="col-3 navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item mt-2">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link pink" href="projects.html">Projects</a>
           </li>
           <li class="nav-item mt-2">
-            <a class="nav-link blue" href="cv.html">CV</a>
+            <a class="nav-link" href="cv.html">CV</a>
           </li>
         </ul>
       </div>
@@ -42,44 +42,64 @@
       </ul>
     </div>
   </nav>
-  <div class="container">
-    <h1>George Reade</h1>
-    <h2>Wannabe Web Developer</h2>
-            <h4>Education</h4>
-        <h5>University of Leeds: Chinese    2013 - 2017</h5>
-            <ul>
-                <li>Comprehensive Chinese course, primarily focused on learning Mandarin. This
-                    included modules on the history and culture of China. </li>
-                <li>Undertook several additional computer science modules including an introduction to web development, gaining my initial
-                    understanding and interest in coding and data science.</li>
-            </ul>
-        <h5>Web Development Courses and Bootcamps</h5>
-            <ul>
-                <li>The Complete 2023 Web Development Bootcamp (Udemy) <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Link to course</a></li>
-                <li>Google UX Design Certificate <a href="https://www.coursera.org/professional-certificates/google-ux-design/">Link to course</a></li>
-            </ul>
-            <hr />
-        <h4>Experience</h4>
-            <h5>Penta Group: Sector Consultant  2018 - Present</h5>
-                <ul>
-                    <li>Scope, oversee and plan insight reports and marketing projects.</li>
-                    <li>Manage and train a group of four junior analysts</li>
-                    <li>Prepare and maintain dashboards and ensure ongoing accuracy of a varied
-                        selection of data sources.</li>
-                    <li>Pre-sales support, including project design, pricing, and advising on the best
-                        solutions to meet client requirements.</li>
-                    <li>Heavily involved in successful pitches to prospective clients in the role of
-                        technical, reputation and brand expert.</li>
-                    <li>Present findings to groups of up to 50 people, including senior stakeholders
-                        such as the Heads of Communications of FTSE 100 businesses.</li>
-                    <li>Lead the introduction of new automation tools.</li>
-                </ul>
-                <hr />
-        <h4>Skills</h4>
-            <p>Chinese (Mandarin) / Web Development / HTML / CSS / JS / Excel / SQL / PowerPoint / Presenting / Pre-Sales Support /
-                Tableau / Training and Development / Data Visualisation</p>
-        <h4>Interests</h4>
-            <p>Sports / Music / Technology / Media / Languages</p>
+  <section class="bg-transparent py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1>My Projects</h1>
+        <p class="fs-5 mb-4">Please see some examples of my work below. I have aimed to demonstrate a variety of skills and processes.</p>
+      </div>
+    </div>
+  </section>
+  <div class="album py-5 bg-body-tertiary bg-transparent">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img width="100%" height="225" src="./images/fpl-suggest.png" ><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Fantasy Premier League Fixture Tracker</text></svg>
+            <div class="card-body">
+              <p class="card-text text-dark">A site made to track fixtures of each Premier League team. Demonstrates use of HTML, CSS frameworks and JS to determine rankings.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./projects/FPL Suggest/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img width="100%" height="225" src="./images/to-do-list.png" ><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">To Do List</text></svg>
+            <div class="card-body">
+              <p class="card-text text-dark">This is just a simple to do list, demonstrating use of Node.js, Express, EJS and partials. Link provided to github repository.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/georgereade/Portfolio/tree/Personal-Site/projects/To%20Do%20List"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img width="100%" height="225" src="./images/construction.jpg" ><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">In Progress...</text></svg>
+            <div class="card-body">
+              <p class="card-text text-dark">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

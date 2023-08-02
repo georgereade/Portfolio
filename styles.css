@@ -1,20 +1,67 @@
-html {
-    background-color: #001C30;
+body {
+    height:100%;
+    background-image: linear-gradient(#1c222e, #000000);
+    font-family: 'League Spartan', sans-serif;
 }
 
-a {
-    color:#DAFFFB;
+h1,h2,h3,a,.feature-icon-small {
+    color: #31E1F7;
 }
 
-h3 {
-    color:#64CCC5;
+#projectslink {
+    color: #31E1F7;
 }
 
-* {
-    font-weight: normal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+h4,h5 {
+    color:#F07DEA;
 }
 
-h2 {
-    color:#176B87;
+#cvlink {
+    color:#F07DEA;  
+}
+
+p,ul,li {
+    color:white;
+}
+
+#hero {
+    opacity: 90%;
+}
+
+.profilepic {
+    height:200px;
+    border-radius: 50%;
+}
+
+.active {
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
+    #indexbtns {
+        justify-content: center;
+    }
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.pink {
+    color:#F07DEA; 
+}
+
+.blue {
+    color: #31E1F7;
+}
+
+.btn-outline-info {
+    --bs-btn-color: #31E1F7;
+}
+
+.btn-outline-light {
+    --bs-btn-color: #F07DEA;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #F07DEA6;
+    --bs-btn-border-color: #F07DEA;
 }

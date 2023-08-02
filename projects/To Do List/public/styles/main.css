@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(0, 255, 255, 0.538);
+    height: 100vh;
+    font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(231, 195, 104);
+}
+
+h2 {
+    padding: 5px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    position: absolute;
+    flex-direction: row;
+} */
+
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    left:5px;
+}
+
+li {
+    margin: 10px;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+.worklist {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.funlist {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+#taskform {
+    padding: 10px;
+}
+
+main {
+    display: block;
+    position: relative;
+    padding: 5%;
+    height: 80vh;
+}
+
+.form-control {
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-control {
+        width: 80%;
+    }
+  }
+
+.btn {
+    width: max-content;
+}
+
+.item {
+    display: flex;
+    min-height: max-content;
+    align-items: center;
+    background-color: whitesmoke;
+    border-bottom: 1px solid goldenrod;
+    padding-left: 5px;
+}
+
+@media only screen and (min-width: 1000px) {
+    #taskheader {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+  }
+
+input {
+    margin:10px;
+    padding-right: 5px;
+}
+
+input:checked + li {
+    text-decoration: line-through;
+    opacity: 50%;
+    text-decoration-color: goldenrod;
+}
+
+ol {
+    padding-inline-start: 0px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
