@@ -29,11 +29,11 @@ const item1 = new Item({
 });
 
 const item2 = new Item({
-  name: "Go to the dead"
+  name: "Go home"
 });
 
 const item3 = new Item({
-  name: "Go to the kill"
+  name: "Go back to the shop"
 });
 
 const defaultItems = [item1,item2,item3];
