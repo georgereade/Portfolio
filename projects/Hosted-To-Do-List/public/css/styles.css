@@ -97,6 +97,7 @@ main {
 input {
   margin:10px;
   padding-right: 5px;
+  font-size: 1em;
 }
 
 input:checked + li {
@@ -115,15 +116,27 @@ ul.no-bullets {
   padding: 0;
 }
 
-@media (max-width: 400px) {
+input.growingbox {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 450px) {
   body {
     font-size: 2em;
     padding-left: 5px;
     padding-right: 5px;
   }
-  .item {
+  p {
     font-size: 3em;
   }
+  input {
+    font-size:2em;
+  }
+  input.growingbox {
+    width: 100px;
+    height: 100px;
+}
 }
 
 @media (min-width: 1000px) {
