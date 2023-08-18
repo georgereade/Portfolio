@@ -10,11 +10,11 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-app.set('views', './views');
+app.set('views', __dirname+'/views');
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("projects/Hosted-To-Do-List/public/"));
+app.use(express.static("./public/"));
 
 mongoose.connect("mongodb+srv://georgereade:4qukbxLI5VTglpmP@cluster0.brh6cuj.mongodb.net/todolistDB", {useNewUrlParser:true});
 
