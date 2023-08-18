@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-app.set('views', 'projects/Hosted-To-Do-List/views');
+app.set('views', '/views');
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
