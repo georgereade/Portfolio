@@ -7,10 +7,11 @@ const _ = require("lodash")
 
 const app = express();
 
+app.set('views', 'projects/Hosted-To-Do-List/views');
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static("public"));
+app.use(express.static("projects/Hosted-To-Do-List/public/"));
 
 mongoose.connect("mongodb+srv://georgereade:4qukbxLI5VTglpmP@cluster0.brh6cuj.mongodb.net/todolistDB", {useNewUrlParser:true});
 
