@@ -153,12 +153,3 @@ input.growingbox {
   }
 }
 
-@media (max-width:320px) {
-  .item {
-    font-size: 5em;
-  }
-  h1 {
-    font-size: 6em;
-  }
-}
-
