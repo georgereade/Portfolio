@@ -46,6 +46,8 @@ function teamRank (team) {
     } 
 };
 
+// add class to html elements based on fixture difficulty. Included a 3 point difficulty difference from 0 to determine close games
+
 function rankFixture (team1,team2) {
     if (opponent === "NONE") {
         $(".fix-" + currentFixture).addClass("nofixture");
