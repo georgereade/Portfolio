@@ -10,3 +10,5 @@ This includes:
 - Node
 - npm
 - MongoDB
+
+Please visit my portfolio page hosted here : georgereade.github.io/Portfolio/ 
